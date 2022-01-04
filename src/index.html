@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>I Can DO?</title>
+    <link rel="stylesheet" href="../dist/main.css">
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>I Can Do Anthying?</h1>
+      </header>
+      <div class="layout">
+        <div class="col main">
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem enim soluta, ratione, sit tempora libero labore, repellat id quae aliquam provident at. Adipisci ex libero molestiae iste officia necessitatibus ipsa soluta quod voluptatum saepe nam ipsam ducimus architecto iusto dolorem sunt temporibus distinctio, dolor recusandae laboriosam repudiandae. Doloribus perspiciatis itaque nisi. Exercitationem ex vel laboriosam incidunt tempora dolores delectus! Repudiandae ab iusto, exercitationem laudantium beatae ducimus accusantium aperiam? Totam est reiciendis eum id recusandae. Explicabo nesciunt quibusdam omnis rem consequatur facere qui et animi, deserunt officia quaerat consequuntur reprehenderit quidem obcaecati cumque laudantium perferendis, distinctio, laborum aperiam ducimus alias dolore!</p>
+
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta eveniet nostrum quia pariatur vero tempora impedit, doloribus mollitia id quidem.</p>
+
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit odit corrupti quo, repudiandae dolorum numquam fuga voluptate consectetur quis voluptatem dolorem ut laborum sit eius obcaecati quas! Iusto dolore obcaecati, accusamus reprehenderit praesentium ipsam commodi reiciendis dolor! Dolorum molestiae optio asperiores explicabo odit reiciendis expedita quo porro facilis? Harum, labore!</p>
+
+          <p><a class="read-more" href="#">Read more...</a></p>
+          <div class="hidden">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam minus excepturi reiciendis nesciunt asperiores tenetur ab voluptates id quasi optio ipsum eum esse iusto, at nulla earum! Inventore eligendi doloribus magni adipisci repellat asperiores ex alias, consequuntur soluta omnis consequatur eaque cum totam laboriosam, ab illum laborum, impedit pariatur architecto. Quos eius officiis asperiores veritatis quia distinctio quis quaerat quas sunt placeat voluptatibus odio reiciendis iure consequuntur necessitatibus, labore numquam, non illum iusto laborum magni, suscipit commodi impedit. Sit temporibus magnam libero nulla voluptates, fugit hic delectus obcaecati et adipisci! Magnam incidunt beatae provident voluptatum temporibus! Cum veritatis illo natus.</p>
+          </div>
+
+          <p>Source: <a href="https://en.wikipedia.org/wiki/Lolcat">Wikipedia</a></p>
+        </div>
+        <div class="col sidebar">
+          <p><strong>Navigation</strong></p>
+          <ul>
+            <li>Home</li>
+            <li><a href="./photos.html">Photo Gallery</a></li>
+            <li><a href="#">practice.com</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="slick-slider">
+        <div><h3>1</h3></div>
+        <div><h3>2</h3></div>
+        <div><h3>3</h3></div>
+        <div><h3>4</h3></div>
+        <div><h3>5</h3></div>
+        <div><h3>6</h3></div>
+      </div>
+
+      <footer>
+        &copy; 2020 Ceiling Cat
+      </footer>
+    </div>
+
+	<script src="../dist/bundle.js"></script>
+    <script>
+      $('.slick-slider').slick({
+        centerMode: true,
+        centerPadding: '60px',
+        slidesToShow: 3,
+        responsive: [
+          {
+            breakpoint: 768,
+            settings: {
+              arrows: false,
+              centerMode: true,
+              centerPadding: '40px',
+              slidesToShow: 3
+            }
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              arrows: false,
+              centerMode: true,
+              centerPadding: '40px',
+              slidesToShow: 1
+            }
+          }
+        ]
+      });
+      </script>
+  </body>
+</html>
